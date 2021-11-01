@@ -1,0 +1,19 @@
+{
+  "name": "upper-clown-triple.github.io",
+  "version": "1.0.0",
+  "description": "packages for upper clown triple website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upper-clown-triple/upper-clown-triple.github.io.git"
+  },
+  "author": "clowns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upper-clown-triple/upper-clown-triple.github.io/issues"
+  },
+  "homepage": "https://github.com/upper-clown-triple/upper-clown-triple.github.io#readme"
+}
