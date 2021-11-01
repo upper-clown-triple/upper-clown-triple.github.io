@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: lavender;
+    background-color: #cdc3e0;
     color: #3f1bab;
     text-align: center;
     font-family: minercraftory;
@@ -25,6 +25,14 @@ h1 {
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 25px;
+}
+
+h2 {
+  color: #1f094a;
+}
+
+p {
+  color: #010003;
 }
 
 ul {
