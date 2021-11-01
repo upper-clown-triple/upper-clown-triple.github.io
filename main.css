@@ -35,11 +35,12 @@ ul {
     background-color: #333;
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    text-align: center;
     top: 0;
   }
   
   li {
-    float: center;
+    display: inline-block;
   }
   
   li a {
