@@ -1,9 +1,68 @@
+@font-face {
+    font-family: minercraftory;
+    src: url('../fonts/minercraftory/Minercraftory.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     background-color: lavender;
+    color: #3f1bab;
+    text-align: center;
+    font-family: minercraftory;
 }
 
 h1 {
-    background-color: purple;
+    background-color: #3f1bab;
+    border: 8px dotted lavender;
+    border-collapse: separate;
     text-align: center;
+    color: #be9ded;
     font-size: 40px;
+    padding: 1%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 25px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
